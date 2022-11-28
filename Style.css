@@ -1,42 +1,41 @@
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.w-250{
+.w-250 {
     width: 250px;
 }
 
-.h-250{
+.h-250 {
     height: 250px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.row{
+.row {
     flex-direction: row;
 }
 
-.full-with{
+.full-with {
     max-width: 100%;
 }
 
-.justify-space-between{
+.justify-space-between {
     justify-content: space-between;
 }
 
-.mx-15{
+.mx-15 {
     margin-left: 15%;
     margin-right: 15%;
 }
 
-.my-20{
-    margin-left: 20%;
-    margin-right: 20%;
+.my-5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-
