@@ -1,0 +1,42 @@
+.text-center{
+    text-align: center;
+}
+
+.red{
+    background-color: red;
+}
+
+.w-250{
+    width: 250px;
+}
+
+.h-250{
+    height: 250px;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.full-with{
+    max-width: 100%;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.mx-15{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.my-20{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
