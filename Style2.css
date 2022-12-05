@@ -1,0 +1,33 @@
+body{
+    margin: 30px 250px;
+}
+.backgroud-grey{
+    background-color: lightgray;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.radius-5{
+    border-radius: 5px;
+}
+.width-90{
+    width: 90%;
+}
+.text-white{
+    color: white;
+}
+.background-blue{
+    background-color: blue;
+}
