@@ -4,42 +4,45 @@
     <link href="Style2.css" rel="stylesheet">
 </head>
 <body>
-    <div class="backgroud-grey align-center justify-center text-center flex column radius-5 padding-top padding-bottom">
+    <div class="backgroud-grey align-center justify-center text-center flex column radius-5 py-40 px-15">
         <h3>Welcome to our website!</h3>
         <h4>Look at this button! Wow let's click on it</h4>
-        <button class="width-90 radius-5 text-white background-blue">Learn more</button>
+        <button class="width-90 radius-5 text-white background-blue border-none p-10">Learn more</button>
     </div>
     <div>
         <h5>Lets look at some random pictures! from website</h5>
-        <div>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            </p>
-            <img src = "#" alt = "Imgae here!">
-        </div>
-        <div>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            </p>
-            <img src = "#" alt = "Imgae here!">
-        </div>
-        <div>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            </p>
-            <img src = "#" alt = "Imgae here!">
+        <div class="flex">
+            <div class="flex column px-15">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+                <img src = "laptop.jpg" alt = "Image here!" class="width-200 height-200">
+            </div>
+            <div class="flex column px-15">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+                <img src = "laptop.jpg" alt = "Image here!" class="width-200 height-200">
+            </div>
+            <div class="flex column px-15">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+                <img src = "laptop.jpg" alt = "Image here!" class="width-200 height-200" >
+            </div>
         </div>
     </div>
-    <div>
+    <div onclick="changeColor()" id="bottom-button" class="background-lightgreen text-center text-green p-10 radius-5">
         <p>Thanks for visiting!</p>
     </div>
+<script src="Index2.js"></script>
 </body>
